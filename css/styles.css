@@ -1,0 +1,209 @@
+ul{
+    list-style-type: none;
+  }
+  
+  a{
+  text-decoration: none;
+  color: var(--main-color);
+  }
+  
+  :focus{
+    outline: none;
+  }
+  /* hero hover button color   #188CE8  */
+  
+  :root{
+   --main-color: #212121;
+   --sub-text-color:#757575;
+   --sub-font-size: 16px;
+   --main-background-color:#FFFFFF;
+   --focus-hover-background-color: #2196F3;
+   --focus-hover-color-button:#FFFFFF;
+   --focus-hover-color-text:#2196F3;
+  }
+  
+  body{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: var(--main-color);
+    font-size: var(--main-font-size);
+    background-color: var(--main-background-color);
+  }
+  
+  .logo{
+    font-family: Raleway, sans-serif;
+    font-size:  26px;
+    font-weight: 700;
+    color: #2196F3;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+  }
+  
+  .navbar{
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  
+  .current-link{
+    color: var(--focus-hover-color-text);
+  }
+  
+  .navbar-link:focus, 
+  .contacts:focus {
+    color: var(--focus-hover-color-text);
+  }
+  
+  .navbar-link:hover, 
+  .contacts:hover {
+    color: var(--focus-hover-color-text);
+  }
+  
+  .hero-button:focus{
+    background-color: #188CE8;
+  }
+  
+  .hero-button:hover {
+    background-color: #188CE8;
+  }
+  
+  .filter-button:focus {
+    background-color:var(--focus-hover-background-color);
+  }
+  
+  .filter-button:hover {
+    background-color:var(--focus-hover-background-color);
+  }
+  
+  .address:focus,
+  .filter-button:focus{
+    color:var(--focus-hover-color-button);
+  }
+  
+  .address:hover,
+  .filter-button:hover{
+    color: var(--focus-hover-color-button);
+  }
+  
+  .contacts{
+    color: var(--sub-text-color);
+    font-weight:500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  
+  .hero{
+    background-color: #2F303A;
+  }
+  
+  h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 136%;
+    text-align: center;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  .hero-button{
+    font-family: Roboto, sans-serif;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .group-heading{
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .group-detail{
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: var(--sub-text-color)
+  }
+  
+  .section-heading{
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+  }
+  
+  .section-team{
+    background-color: #F5F4FA;
+  }
+  
+  .team-name{
+    font-weight: 500;
+    font-size: var(--sub-font-size);
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .team-title{
+    font-weight: 400;
+    font-size: var(--sub-font-size);
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--sub-text-color);
+  }
+  
+  .filter-button{
+    font-family: Roboto, sans-serif;
+    background-color: #F5F4FA;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: var(--sub-font-size);
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  
+  .filter-current{
+    background-color: var(--focus-hover-background-color);
+    color: var(--focus-hover-color-button);
+  }
+  
+  .projects-heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+  }
+  
+  .projects-filter{
+    font-weight: 400;
+    font-size: var(--sub-font-size);
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--sub-text-color);
+  }
+  
+  .footer{
+    background-color: #2F303A;
+  }
+  
+  .address{
+    color: var(--sub-text-color);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+     letter-spacing: 0.03em;
+  }
