@@ -39,47 +39,7 @@ ul{
     line-height: 31px;
     letter-spacing: 0.03em;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  html {
-    box-sizing: border-box;
-  }
-  *,
-  *::after,
-  *::before {
-    box-sizing: inherit;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  address {
-    font-style: normal;
-  }
-  .link { 
-    text-decoration: none;
-    color: inherit;
-  }
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-        
-  }
   
-  .section {
-    padding: 94px 0;
-  }
-  
-
   
   .navbar{
     font-weight: 500;
